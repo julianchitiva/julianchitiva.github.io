@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Candidate in Economics at [HEC Paris](https://www.hec.edu/en/faculty-research/faculty-departments/economics-and-decision-sciences). My research interest lie in microeconomic theory, game theory and social networks. I am particularly interested in the role of information and social structures in economic dynamics. 
-
-<!--- Before starting my PhD I worked in consultancy developing mathematical models to solve industry and government problems in Colombia --->
+I am a PhD Candidate in Economics at [HEC Paris](https://www.hec.edu/en/faculty-research/faculty-departments/economics-and-decision-sciences). My research interest lie in microeconomic theory, game theory and social networks. I am particularly interested in the role of information and social structures in economic dynamics. Before starting my PhD I worked in consultancy developing mathematical models to solve industry and government problems in Colombia.
 <!--- Incluir un par de frases del trabajo en consultoria. Revisar Redaccion --->
 
 You can reach me by email at julian [dot] chitiva [at] hec [dot] edu
@@ -41,8 +39,8 @@ Jump to [Research](#research), [News and Events](#news-and-events) or [Teaching 
 - Every two weeks we have the [Junior Parisian Game Theory Seminar](https://sites.google.com/view/seminairetheoriedesjeux/junior-seminar-20242025) where students and postdocs can present their work in any area related to game theory work. If you want to present or want to be included in the mailing list, email me. 
 
 ## Presentations
-- *2025:* Junior Paris Game Theory Seminar (Paris, France); BiNoMa Workshop on Economic Networks (Granada, Spain); CES Networks and Games (Paris, France); Games and Artificial Intelligence Multidisciplinary Summer School and Workshop (Toulouse, France); 3rd Annual Meeting Colombian Economics Conference (Bogotá, Colombia).
-- *2024:* Universidad de Valencia - Economics Department Seminar (Valencia, Spain); 9th Annual Conference on Network Science and Economics (Minneapolis, USA); BiNoMa Workshop on Economic Networks (Rennes, France); Games and Artificial Intelligence Multidisciplinary Summer School and Workshop (Metz, France); CES Networks and Games (Paris, France); ASSET 2024 (Venice, Italy); Junior Workshop on Mathematical Game Theory (Rome, Italy); WINE 2024 (Edinburgh, Scotland), Optimization Workshop at Universidad de los Andes (Bogotá, Colombia).
+- *2025:* Junior Paris Game Theory Seminar (Paris, France); 8th BiNoMa Workshop on Economic Networks (Granada, Spain); CES Networks and Games (Paris, France); Games and Artificial Intelligence Multidisciplinary Summer School and Workshop 2025 (Toulouse, France); 3rd Annual Meeting Colombian Economics Conference (Bogotá, Colombia).
+- *2024:* Universidad de Valencia - Economics Department Seminar (Valencia, Spain); 9th Annual Conference on Network Science and Economics (Minneapolis, USA); 7th BiNoMa Workshop on Economic Networks (Rennes, France); Games and Artificial Intelligence Multidisciplinary Summer School and Workshop 2024 (Metz, France); CES Networks and Games (Paris, France); ASSET 2024 (Venice, Italy); Junior Workshop on Mathematical Game Theory (Rome, Italy); WINE 2024 (Edinburgh, Scotland), Optimization Workshop at Universidad de los Andes (Bogotá, Colombia).
 - *2023:* Junior Paris Game Theory Seminar (Paris, France); 2nd Workshop in Dynamic Games and Applications (Paris, France). 
 
 <hr style="border:1px solid gray">
