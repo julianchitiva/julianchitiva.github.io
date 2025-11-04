@@ -46,6 +46,7 @@ Start by build the container:
 ```bash
 docker build -t jekyll-site .
 ```
+bundle exec jekyll serve  
 
 Next, run the container:
 ```bash
