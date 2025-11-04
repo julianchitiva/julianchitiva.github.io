@@ -19,8 +19,11 @@ Jump to [Research](#research), [News and Events](#news-and-events) or [Teaching 
 <hr style="border:1px solid gray">
 
 # Research
+## Working Papers
+- [Continuous Social Networks](https://arxiv.org/pdf/2407.11710) with Xavier Venel. Extended Abstract in WINE 2024.
+
+
 ## Work in Progress
-- [Continuous Social Networks](https://arxiv.org/pdf/2407.11710) with Xavier Venel. To appear at WINE 2024 proceedings.
 - Platform-Induced Coordination with Penélope Hernández
 - Behavioral Model for Decision-Making with Penélope Hernández and Maria Murgui.
 
