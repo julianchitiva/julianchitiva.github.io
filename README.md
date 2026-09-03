@@ -11,47 +11,57 @@
 1. Set site-wide configuration and add your content.
 1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
 1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
 See more info at https://academicpages.github.io/
 
 ## Running locally
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+There are two ways to preview the site on your own machine before pushing to GitHub: natively with Ruby, or with Docker. Pick one.
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
+### Option A: Native Ruby
+
+1. Clone the repository.
+1. Install Ruby, Bundler, and Node.js.
+
+    On most Linux distributions and [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about):
     ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
+    sudo apt install ruby-dev ruby-bundler nodejs build-essential gcc make
     ```
-    On MacOS the commands are:
+    On macOS:
     ```bash
-    brew install ruby
-    brew install node
+    brew install ruby node
     gem install bundler
     ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+1. From the repository root, install the Ruby gems:
+    ```bash
+    bundle install
+    ```
+    If this fails with a "permission denied" error writing `Gemfile.lock`, a previous Docker run likely left it owned by `root` — delete it (`rm Gemfile.lock`) and run `bundle install` again.
+1. Build and serve the site:
+    ```bash
+    bundle exec jekyll serve -l -H localhost
+    ```
+    Then open http://localhost:4000/. The server watches the source files and rebuilds automatically on save.
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+    On some newer Ruby versions (3.2+), the Liquid templating library pinned by this template's `github-pages` gem calls a method (`tainted?`) that no longer exists, which crashes the build with `undefined method 'tainted?'`. This repo already works around it with a small shim at [`_plugins/ruby_taint_compat.rb`](_plugins/ruby_taint_compat.rb) — it only activates itself when the method is missing, so don't remove it unless you've confirmed your Ruby version doesn't need it.
 
-## Using Docker
+### Option B: Docker
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+Working from a different OS, or just want to avoid installing dependencies? Use the provided `Dockerfile` to build a container that runs the site for you if you have [Docker](https://www.docker.com/) installed.
 
-Start by build the container:
+Build the container:
 
 ```bash
 docker build -t jekyll-site .
 ```
-bundle exec jekyll serve  
 
-Next, run the container:
+Run it, serving on http://localhost:4000/:
+
 ```bash
 docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
 ```
+
+Note: because `-v $(pwd):/usr/src/app` mounts your repo into the container, and the container runs as `root`, any file Bundler writes at runtime (namely `Gemfile.lock`) will end up owned by `root` on your host — this is what causes the "permission denied" error mentioned in Option A if you switch between the two approaches. `Gemfile.lock` is gitignored, so this never affects what gets committed; if it blocks a native `bundle install` afterward, just delete it.
 
 # Maintenance
 
