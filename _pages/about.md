@@ -10,7 +10,7 @@ redirect_from:
 I am a PhD Candidate in Economics at [HEC Paris](https://www.hec.edu/en/faculty-research/faculty-directory/faculty-member/chitiva-julian). My research interest lie in microeconomic theory, game theory and social networks. I am particularly interested in the role of information and social structures in economic dynamics. Before starting my PhD I worked in consultancy developing mathematical models to solve industry and government problems in Colombia.
 <!--- Incluir un par de frases del trabajo en consultoria. Revisar Redaccion --->
 
-You can reach me by email at julian [dot] chitiva [at] hec [dot] edu
+You can reach me by email at julian.chitiva [at] hec [dot] edu
 
 You can find my [**CV here**](/files/CV_Chitiva.pdf){:target="_blank"}.
 
