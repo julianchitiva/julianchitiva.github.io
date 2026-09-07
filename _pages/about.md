@@ -28,7 +28,6 @@ Jump to [**Research**](#research), [**News and Events**](#news-and-events) or [*
 
 *Abstract:* This paper studies the convergence of sequential trade in networks and its redistributive consequences. Agents with additively separable, quasilinear HARA preferences clear Walrasian exchanges within network cliques, each allocation becoming the next endowment. I find that, independently of the network topology and trading order, every non-numeraire good converges to the centralised competitive allocation. In contrast, the final allocation of the numeraire is path-dependent. Therefore, the limit allocation is Pareto efficient along every path, but the path taken determines how the surplus is divided. I characterise that division in closed form: each agent's transfer is a quadratic form in the initial disequilibrium whose kernel solves a discrete Lyapunov equation. The framework thus allows trading protocols to be compared on both convergence and redistribution.
 
-**Draft available upon request.**
 <!-- TODO: once a public draft is ready, replace the line above with a direct link, e.g.:
 [Download Draft]({{ base_path }}/files/JMP_Chitiva.pdf) -->
 
