@@ -20,7 +20,7 @@
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    @include suffix(0.5 of 12);
   }
 
   .page__inner-wrap {
@@ -49,6 +49,14 @@
 }
 
 .page__content {
+
+  p {
+    // Justified text gets uneven word-gaps on narrow columns without
+    // hyphenation, so only switch on once there's room to breathe.
+    @include breakpoint($medium) {
+      text-align: justify;
+    }
+  }
 
   h2 {
     padding-bottom: 0.5em;
