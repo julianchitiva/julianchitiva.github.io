@@ -24,16 +24,17 @@ Jump to [**Research**](#research), [**News and Events**](#news-and-events) or [*
 
 ## Job Market Paper
 
-**Sequential Redistribution in Networked Exchange Economies**
+[**Sequential Redistribution in Networked Exchange Economies**](/files/SequentialRedistributionNetworkedExchangeEconomies_JulianCHITIVA.pdf){:target="_blank"}
 
-*Abstract:* This paper studies the convergence of sequential trade in networks and its redistributive consequences. Agents with additively separable, quasilinear HARA preferences clear Walrasian exchanges within network cliques, each allocation becoming the next endowment. I find that, independently of the network topology and trading order, every non-numeraire good converges to the centralised competitive allocation. In contrast, the final allocation of the numeraire is path-dependent. Therefore, the limit allocation is Pareto efficient along every path, but the path taken determines how the surplus is divided. I characterise that division in closed form: each agent's transfer is a quadratic form in the initial disequilibrium whose kernel solves a discrete Lyapunov equation. The framework thus allows trading protocols to be compared on both convergence and redistribution.
+*Abstract:* This paper studies sequential trade in networks.
+Agents trade in a sequence of local Walrasian exchanges within cliques of the network, and the allocation after each exchange becomes the endowment for the next one. Preferences are additively separable and quasilinear in a numeraire. The utility of each non-numeraire good belongs to the HARA family, with a curvature common to all agents. I show that the allocation of non-numeraire goods converges to the allocation of the centralised market along every sequence in which the relationships used infinitely often connect the economy. Therefore, the limit is Pareto efficient. However, relative to the centralised market, agents transfer numeraire to one another along the path. To leading order, each transfer is quadratic in the difference between the initial endowments of non-numeraire goods and their centralised allocation. I obtain these transfers in closed form when the same sequence of cliques repeats and, in expectation, when cliques are drawn at random. Even in expectation, random trade does not restore the numeraire allocation of the centralised market. Therefore, the structure of trade does not matter for efficiency, but it matters for distribution. Finally, I compare trading structures by their speed of convergence and by the redistribution they generate.
 
 <!-- TODO: once a public draft is ready, replace the line above with a direct link, e.g.:
 [Download Draft]({{ base_path }}/files/JMP_Chitiva.pdf) -->
 
 ## Working Papers
 - Platform-Induced Coordination, joint with Penélope Hernández. 2026.
-- Correcting Optimism: Informational Interventions in Affective Decision-Making, joint with Penélope Hernández and María Murgui. 2026.
+- [Correcting Optimism: Informational Interventions in Affective Decision-Making](https://www.erices.es/wp-content/uploads/2025/10/affective_decision_making.pdf), joint with Penélope Hernández and María Murgui. 2026.
 - [Continuous Social Networks](https://arxiv.org/pdf/2407.11710), joint with Xavier Venel. 2025. Extended Abstract in WINE 2024 (peer-reviewed).
 
 ## Conference Papers
