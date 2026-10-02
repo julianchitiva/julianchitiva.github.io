@@ -407,3 +407,45 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+/*
+   Collapsed paper abstracts (see _includes/abstracts.html)
+   ========================================================================== */
+
+.paper-abstract {
+  cursor: pointer;
+
+  &__toggle {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: $link-color;
+    font: inherit;
+    white-space: nowrap;
+    cursor: pointer;
+
+    &::before {
+      content: "\25B8\00A0";
+    }
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: underline;
+    }
+  }
+
+  &.is-open &__toggle::before {
+    content: "\25BE\00A0";
+  }
+
+  &__text {
+    display: none;
+    margin: 0.5em 0;
+    cursor: auto;
+  }
+
+  &.is-open &__text {
+    display: block;
+  }
+}

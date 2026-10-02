@@ -1,0 +1,42 @@
+{% if site.data.abstracts %}
+<!-- Collapsed abstracts for papers listed in the page, from _data/abstracts.yml -->
+<script>
+  (function () {
+    var abstracts = {{ site.data.abstracts | jsonify }};
+    var items = document.querySelectorAll('.page__content li');
+    abstracts.forEach(function (paper) {
+      for (var i = 0; i < items.length; i++) {
+        if (items[i].textContent.indexOf(paper.title) === -1) continue;
+        attach(items[i], paper.abstract);
+        break;
+      }
+    });
+
+    function attach(item, abstract) {
+      // Visible label at the end of the line, and the keyboard-accessible control
+      var toggle = document.createElement('button');
+      toggle.type = 'button';
+      toggle.className = 'paper-abstract__toggle';
+      toggle.textContent = 'Abstract';
+      toggle.setAttribute('aria-expanded', 'false');
+
+      var text = document.createElement('p');
+      text.className = 'paper-abstract__text';
+      text.textContent = abstract;
+
+      item.classList.add('paper-abstract');
+      item.appendChild(document.createTextNode(' '));
+      item.appendChild(toggle);
+      item.appendChild(text);
+
+      // The whole line toggles, except links (they open the paper) and the
+      // abstract itself (so its text can be selected)
+      item.addEventListener('click', function (event) {
+        if (event.target.closest('a, .paper-abstract__text')) return;
+        var open = item.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+    }
+  })();
+</script>
+{% endif %}

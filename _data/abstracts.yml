@@ -1,0 +1,38 @@
+# Abstracts shown as a collapsed "Abstract" toggle under a paper in a list.
+# `title` must match the paper title exactly as it is written in the page.
+# The toggle is attached to the first list item that contains the title.
+# See _includes/abstracts.html.
+
+- title: "Correcting Optimism: Informational Interventions in Affective Decision-Making"
+  abstract: >-
+    We develop a behavioral model of insurance choice where a rational and an
+    emotional self engage in a simultaneous game, expanding the affective
+    decision-making framework of Bracha and Brown (2012) to accommodate diverse
+    subjective beliefs. Optimal coverage increases with the perceived
+    probability of an adverse event. Relative to a benchmark, an agent who
+    under-insures is optimistic, while one who over-insures is pessimistic. A
+    single choice reveals an agent's behavioral type but not the bias source,
+    whereas population-level distributions are recovered. We propose Risk
+    Awareness Informational Campaigns (RAICs) to align perceived probabilities
+    with objective ones without changing payoffs. We identify conditions under
+    which a RAIC increases coverage, based on absolute risk aversion related to
+    insurance levels.
+
+- title: "Continuous Social Networks"
+  abstract: >-
+    We develop an extension of the classical model of DeGroot (1974) to a
+    continuum of agents when they interact among them according to a DiKernel.
+    We show that, under some regularity assumptions, the continuous model is
+    the limit case of the discrete one. Additionally, we establish sufficient
+    conditions for the emergence of consensus. We provide some applications of
+    these results. First, we establish a canonical way to reduce the
+    dimensionality of matrices by comparing matrices of different dimensions in
+    the space of DiKernels. Then, we develop a model of Lobby Competition where
+    two lobbies compete to bias the opinion of a continuum of agents. We give
+    sufficient conditions for the existence of a Nash Equilibrium and study
+    their relation with the equilibria of discretizations of the game. Finally,
+    we characterize the equilibrium for a particular case of DiKernels.
+
+# - title: "Platform-Induced Coordination"
+#   abstract: >-
+#     ...
