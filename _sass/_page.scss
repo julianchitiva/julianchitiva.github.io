@@ -441,8 +441,12 @@
 
   &__text {
     display: none;
-    margin: 0.5em 0;
     cursor: auto;
+  }
+
+  /* .page__content p sets the paragraph margin, so match its specificity */
+  @at-root .page__content #{&}__text {
+    margin: 0.5em 2em;
   }
 
   &.is-open &__text {
