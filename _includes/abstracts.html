@@ -1,5 +1,7 @@
 {% if site.data.abstracts %}
-<!-- Collapsed abstracts for papers listed in the page, from _data/abstracts.yml -->
+<!-- Collapsed abstracts for papers listed in the page, from _data/abstracts.yml.
+     Use only /* */ comments in the script: the production build compresses the
+     HTML into one line, so a // comment would disable the rest of the code. -->
 <script>
   (function () {
     var abstracts = {{ site.data.abstracts | jsonify }};
@@ -13,7 +15,7 @@
     });
 
     function attach(item, abstract) {
-      // Visible label at the end of the line, and the keyboard-accessible control
+      /* Visible label at the end of the line, and the keyboard-accessible control */
       var toggle = document.createElement('button');
       toggle.type = 'button';
       toggle.className = 'paper-abstract__toggle';
@@ -29,8 +31,8 @@
       item.appendChild(toggle);
       item.appendChild(text);
 
-      // The whole line toggles, except links (they open the paper) and the
-      // abstract itself (so its text can be selected)
+      /* The whole line toggles, except links (they open the paper) and the
+         abstract itself (so its text can be selected) */
       item.addEventListener('click', function (event) {
         if (event.target.closest('a, .paper-abstract__text')) return;
         var open = item.classList.toggle('is-open');
