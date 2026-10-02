@@ -34,10 +34,10 @@ Jump to [**Research**](#research), [**News and Events**](#news-and-events) or [*
 ## Working Papers
 - Platform-Induced Coordination, joint with Penélope Hernández. 2026.
 - [Correcting Optimism: Informational Interventions in Affective Decision-Making](https://www.erices.es/wp-content/uploads/2025/10/affective_decision_making.pdf), joint with Penélope Hernández and María Murgui. 2026.
-- [Continuous Social Networks](https://arxiv.org/pdf/2407.11710), joint with Xavier Venel. 2025. Extended Abstract in WINE 2024 (peer-reviewed).
+- [Continuous Social Networks](https://arxiv.org/pdf/2407.11710), joint with Xavier Venel. 2025. Extended Abstract in WINE 2024.
 
 ## Conference Papers
-- [Continuous Social Networks](https://arxiv.org/pdf/2407.11710), joint with Xavier Venel. International Conference on Web and Internet Economics, WINE '24 (2024) (extended abstract).
+- [Continuous Social Networks](https://link.springer.com/content/pdf/bbm:978-3-032-08560-3/1#page=27){:target="_blank"}, joint with Xavier Venel. Web and Internet Economics: 20th International Conference, WINE 2024. Lecture Notes in Computer Science, vol. 15534, Springer (2026), pp. 654-655 (Extended Abstract).
 - [Visual Representations to Evaluate the Heterogeneous Effects of Urban Parks Restoration on Crime](https://doi.org/10.1145/3460112.3471969), joint with D. Newball Ramírez, P. Rodríguez Díaz, H. Benavides Gutiérrez, M. Dulce, and A. Riascos. ACM SIGCAS Conference on Computing and Sustainable Societies, COMPASS '21 (2021), pp. 48-54.
 
 ## Pre-PhD Research (Non-Peer-Reviewed)
@@ -50,7 +50,7 @@ Jump to [**Research**](#research), [**News and Events**](#news-and-events) or [*
 
 # News and Events
 - Every two weeks we have the [Junior Parisian Game Theory Seminar](https://sites.google.com/view/seminairetheoriedesjeux/junior-seminar-20242025) where students and postdocs can present their work in any area related to game theory work. If you want to present or want to be included in the mailing list, email me. 
-- Next June we will have the 2027 edition of the [HEC PhD Economics Conference](https://sites.google.com/view/hecon/home). Visit our [website](https://sites.google.com/view/hecon/home) for more information. 
+<!-- - Next June we will have the 2027 edition of the [HEC PhD Economics Conference](https://sites.google.com/view/hecon/home). Visit our [website](https://sites.google.com/view/hecon/home) for more information. -->
 
 ## Presentations
 - *2026:* Workshop on Game Theory and Behavioural Economics 2026 (Bergamo, Italy); 11th Annual Conference on Network Science and Economics (Miami, USA); Work-in-Progress Econ Theory Seminar LSE (London, UK); Networks Workshop Seminar at Cambridge University (Cambridge, UK); 9th BiNoMa Workshop on Economic Networks (Tilburg, Netherlands); Games and Artificial Intelligence Multidisciplinary Summer School and Workshop 2026 (Bonn, Germany); Transatlantic Theory Workshop (Evanston, USA).
